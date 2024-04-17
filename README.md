@@ -2,7 +2,13 @@
 
 ## Introduction
 CycleGAN is a groundbreaking approach that enables the transformation of images from one domain to another without paired examples. This technique has vast applications, including but not limited to style transfer, photo enhancement, and in domains where paired training data is not available. Our implementation focuses on providing a user-friendly, highly customizable framework to explore the capabilities of CycleGAN in various domains.
-
+- the example images
+    - training data 
+        ![](./dataset_sample/horse_training_data.png)
+        ![](./dataset_sample/zebra_training_data.png)
+    - test data
+        ![](./dataset_sample/horse_training_data.png)
+        ![](./dataset_sample/zebra_training_data.png)
 ## File structure
 ```
 ├── config.py                      # Configuration file containing parameters for model training and testing, such as learning rate, batch size, etc.
@@ -54,6 +60,9 @@ You can monitor the training progress in TensorBoard by navigating to the logs d
 
 ## Results
 The trained models, along with their outputs, will be saved in the `results` directory. This includes transformation examples from both domains and the loss metrics over the training period.
+
+-  the transformation shifted from horse to zebra, and then it repeated, moving from horse to zebra once again.
+    ![](./result/Horse2Zebra.png)
 
 ## References
 This CycleGAN implementation is inspired by the original paper:
