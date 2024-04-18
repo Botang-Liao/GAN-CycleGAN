@@ -5,8 +5,8 @@ CycleGAN is a groundbreaking approach that enables the transformation of images 
 - the example images
         ![](./dataset_sample/horse_training_data.png)
         ![](./dataset_sample/zebra_training_data.png)
-        ![](./dataset_sample/horse_training_data.png)
-        ![](./dataset_sample/zebra_training_data.png)
+        ![](./dataset_sample/horse_testing_data.png)
+        ![](./dataset_sample/zebra_testing_data.png)
 ## File structure
 ```
 ├── config.py                      # Configuration file containing parameters for model training and testing, such as learning rate, batch size, etc.
