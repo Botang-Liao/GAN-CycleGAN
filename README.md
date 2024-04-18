@@ -3,10 +3,8 @@
 ## Introduction
 CycleGAN is a groundbreaking approach that enables the transformation of images from one domain to another without paired examples. This technique has vast applications, including but not limited to style transfer, photo enhancement, and in domains where paired training data is not available. Our implementation focuses on providing a user-friendly, highly customizable framework to explore the capabilities of CycleGAN in various domains.
 - the example images
-    - training data 
         ![](./dataset_sample/horse_training_data.png)
         ![](./dataset_sample/zebra_training_data.png)
-    - test data
         ![](./dataset_sample/horse_training_data.png)
         ![](./dataset_sample/zebra_training_data.png)
 ## File structure
@@ -40,10 +38,11 @@ CycleGAN is a groundbreaking approach that enables the transformation of images 
 To use this CycleGAN implementation, you need to have Python 3.6 or later installed on your system. Follow these steps to set up the environment:
 1. Clone this repository:
 ```
-
+git clone https://github.com/Botang-Liao/GAN-CycleGAN.git
 ```
 2. Navigate to the cloned directory:
 ```
+cd CycleGAN
 ```
 3. Install the required dependencies:
 ```
